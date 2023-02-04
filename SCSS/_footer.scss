@@ -52,6 +52,39 @@
   }
 }
 
+@media (max-width: 660px) {
+  .footer {
+    &__section-content {
+      display: unset;
+      align-items: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &__section-link-img {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 41px;
+    }
+
+    &__section-nav {
+      display: unset;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &__section-nav-list-item {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &__section-list {
+      margin-top: 25px;
+      margin-left: 215px;
+    }
+  }
+}
+
 @media only screen and (max-width: 375px) {
   .footer {
     height: 438px;
